@@ -1,0 +1,121 @@
+.tituloqud{
+    text-align: center;
+}
+#header {
+    background: #74ba66;
+    border-radius: 10px 10px 10px 0px;
+    width: 406px;
+    height: 35px;
+    position:relative; top: -30px; left: 40px;
+    
+}
+
+nav {
+    color: lightgreen;
+    position:relative; top: 4px; left: 8px;
+}
+
+.nav1 {
+    color: white;
+}
+
+.img_iffar {
+    max-width: 200px;
+    height: auto;
+    border-radius: 10px;
+}
+
+.logo_iffar {
+    width: 29px;
+    height: 35px;
+    position:relative; top: 5px; left: 5px;
+}
+
+.quadrado_campus {
+    background: #acff9c;
+    border-radius: 5px 10px 10px 10px;
+    max-width: 1050px;
+    min-width: 440px;
+    position:relative; top: -30px;left: 18px;
+
+}
+
+.quadrado_campus div {
+    margin: 0;
+    margin-bottom: 20px;
+}
+/*telas pequenas*/
+@media (max-width: 576px) {
+    .img_iffar {
+        max-width: 280px;
+    }
+     .quadrado_campus {
+        text-align: center;
+        position:relative; top: -30px;left: 18px;
+    }
+}
+/*telas médias*/
+@media screen and (min-width: 577px) and (max-width: 768px) {
+    .img_iffar {
+        max-width: 250px;
+    }
+     .quadrado_campus {
+        text-align: center;
+        position:relative; top: -30px;left: 18px;
+    }
+}
+/*telas grandes*/
+@media screen and (min-width: 769px) and (max-width: 992px) {
+    .img_iffar {
+        max-width: 220px;
+    }
+     .quadrado_campus {
+        text-align: center;
+        position:relative; top: -30px;left: 18px;
+    }
+}
+/*telas extra-grandes*/
+@media (min-width: 1400px) {
+    #header {
+        width: 490px;
+        height: 42px;
+        position:relative; top: -35px; left: 44px;
+    }
+    
+    .img_iffar {
+        max-width: 270px;
+    }
+     .quadrado_campus {
+        max-width: 1300px;
+        text-align: center;
+        position:relative; top: -35px;left: 18px;
+    }
+    .logo_iffar {
+        width: 32px;
+        height: 40px;
+        position:relative; top: 5px; left: 5px;
+    }
+}
+
+.form_quad {
+    background: #acff9c;
+    border-radius: 10px 10px 10px 10px;
+    width: 400px;
+    min-height: 300px;
+    padding-bottom: 10px;
+    position: relative; left: 20px; top: -10px;
+}
+
+.form label {
+    width: 300px;
+}
+
+.form input,
+.form textarea {
+    background-color: white;
+    width: 300px;
+}
+
+.form button {
+    width: 300px;
+}

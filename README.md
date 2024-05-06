@@ -5,4 +5,4 @@ Em uma atividade proposta pelo professor George Gonçalves, tínhamos que fazer 
 3. Criar uma página instituto.html, nesta pagina deveríamoa listar todos os campi do Instituto Federal Farroupilha, com uma foto do pórtico do campus indicado, com um link do portal do campus no site do IFFar.
 4. Criar uma página sobre.html, falando sobre o estudante.
 5. Criar uma lágina contato.html, mostrando os contatos do estudante, como o e-mail.
-## Veja o trabalho [clicando aqui.](bru.is-a.dev/trabalho-iffar-html)
+## Veja o trabalho [clicando aqui.](https://bru.is-a.dev/trabalho-iffar-html)

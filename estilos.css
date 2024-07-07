@@ -1,18 +1,26 @@
+body {
+    background-color: #acff9c;
+    text-align: center;
+}
 .tituloqud{
     text-align: center;
 }
-#header {
+.header {
     background: #74ba66;
-    border-radius: 10px 10px 10px 0px;
-    width: 406px;
-    height: 35px;
-    position:relative; top: -30px; left: 40px;
-    
+    border-radius: 10px;
+    margin-left: 16px;
+    margin-right: 16px;
+    margin: 8px;
+    padding: 8px;
+    width: auto;
+    height: auto;
+    position:relative;
 }
 
 nav {
-    color: lightgreen;
-    position:relative; top: 4px; left: 8px;
+    color: #90ee90;
+    position: relative;
+    text-align: center;
 }
 
 .nav1 {
@@ -23,21 +31,47 @@ nav {
     max-width: 200px;
     height: auto;
     border-radius: 10px;
+    box-shadow:
+    5px 5px 8px #568a4b;
 }
 
 .logo_iffar {
+    background-color: #80d86e;
+    border-radius: 5px;
     width: 29px;
     height: 35px;
-    position:relative; top: 5px; left: 5px;
+    position: relative;
+}
+
+.links {
+    width: 250px;
+    text-align: start;
+    list-style-position: inside;
+    position: relative;
+    top: -10px;
+    left: 50%;
+    transform: translate(-50%,0);
+}
+
+.form_quad {
+    background: #acff9c;
+    border-radius: 10px;
+    width: 400px;
+    min-height: 300px;
+    padding-bottom: 10px;
+    position: relative; top: -10px;
+    left: 50%;
+    transform: translate(-50%);
 }
 
 .quadrado_campus {
-    background: #acff9c;
     border-radius: 5px 10px 10px 10px;
     max-width: 1050px;
     min-width: 440px;
-    position:relative; top: -30px;left: 18px;
-
+    position:relative;
+    top: 16px;
+    left: 50%;
+    transform: translate(-50%,0);
 }
 
 .quadrado_campus div {
@@ -103,7 +137,7 @@ nav {
     width: 400px;
     min-height: 300px;
     padding-bottom: 10px;
-    position: relative; left: 20px; top: -10px;
+    position: relative; top: -10px;
 }
 
 .form label {
